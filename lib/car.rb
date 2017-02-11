@@ -1,11 +1,13 @@
 class Car
 
-attr_accessor :color
+attr_accessor :color, :has_car
 
 def initialize
-  @color = true
+   @has_car = true
 end
- def paint(color)
-   @color = 'green'
+
+def paint(color)
+   @color = color
 end
+
 end
